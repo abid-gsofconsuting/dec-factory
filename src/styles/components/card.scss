@@ -1,0 +1,19 @@
+%hover-transitions {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+@mixin card-color($background-color, $color) {
+  background-color: $background-color !important ;
+  color: $color !important;
+}
+.cardContainer {
+  @include card-color(var(--background-color), var(--text-color));
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  &:hover {
+    @extend %hover-transitions;
+    @include card-color(var(--background-color), var(--text-color));
+  }
+}

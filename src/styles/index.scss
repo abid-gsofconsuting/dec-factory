@@ -1,0 +1,9 @@
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/theme.scss";
+@import "./components/card.scss";
+.mainContainer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}

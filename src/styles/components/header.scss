@@ -1,0 +1,45 @@
+.headerSection {
+  background-color: var(--background-color);
+  margin-bottom: 100px;
+}
+
+.icon {
+  color: var(--text-color);
+  box-shadow: none;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+.navbarBrand {
+  margin: 0;
+  padding: 10px;
+  img {
+    width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+  }
+}
+.customNavContainer {
+  padding: 0;
+}
+.navLink {
+  color: var(--text-color);
+  cursor: pointer;
+  &:hover {
+    color: var(--text-color);
+  }
+}
+.navItem {
+  padding: 10px 7px;
+  color: var(--text-color);
+  &:focus {
+    font-weight: bold;
+  }
+  &:hover {
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none;
+  }
+}
